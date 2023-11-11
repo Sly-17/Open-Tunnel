@@ -77,7 +77,7 @@ void receive_tunneller(const int PORT){
         }                                                                                                                                                  
 
                                                                                                                                                            
-//      chdir(getenv("HOME"));                                                                                                                             
+        chdir(getenv("HOME"));                                                                                                                             
         getcwd(buffer, BUFFER_SIZE);                                                                                                                       
         sprintf(outputs_path, "%s/out.txt", buffer);                                                                                                       
         sprintf(logs_path, "%s/logs.txt", buffer);                                                                                                         
